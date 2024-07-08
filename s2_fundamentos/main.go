@@ -10,11 +10,13 @@ import (
 	// "s2_fundamentos/aula_12_funcao_variatica"
 	// "s2_fundamentos/aula_13_funcao_recursiva"
 	// "s2_fundamentos/aula_14_defer"
-	"s2_fundamentos/aula_15_panic_and_recover"
+	// "s2_fundamentos/aula_15_panic_and_recover"
+	// "s2_fundamentos/aula_16_funcao_closure"
+	"s2_fundamentos/aula_17_funcao_com_ponteiro"
 )
 
 func main() {
-	fmt.Println("Gopher say: hello world!")
+	fmt.Println("Gopher say: hello world! \n")
 	// aula_07_heranca.Heranca()
 	// aula_07_heranca.HerancaComMetodo()
 
@@ -36,6 +38,10 @@ func main() {
 	// aula_14_defer.Defer(true)
 	// aula_14_defer.Defer(false)
 
-	aula_15_panic_and_recover.PanicAndRecover()
+	// aula_15_panic_and_recover.PanicAndRecover()
+
+	// aula_16_funcao_closure.FuncaoClosure()
+
+	aula_17_funcao_com_ponteiro.FuncaoComPonteiro()
 
 }
