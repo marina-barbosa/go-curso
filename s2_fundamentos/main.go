@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Gopher say: hello world! \n")
+	fmt.Println("Gopher say: hello world!")
 	// aula_07_heranca.Heranca()
 	// aula_07_heranca.HerancaComMetodo()
 
